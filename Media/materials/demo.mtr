@@ -1,0 +1,9 @@
+textures/base/roughsurface
+{
+	qer_editorimage	textures/base/roughsurface
+	obsp_normalmap  textures/base/roughsurface_local
+
+	bumpmap		textures/base/roughsurface_local
+	diffusemap	textures/base/roughsurface
+	specularmap	textures/base/roughsurface_s
+}

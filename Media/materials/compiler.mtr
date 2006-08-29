@@ -1,0 +1,249 @@
+// This material script file is a kind of simulation for compatility with 
+// other map compilers. This script file was designed for only the compiler.
+// DO NOT USE it for in-game use
+//
+// Supported games are:
+//   Quake III: Arena
+//   Quake III: Team Arena
+//   Return To Castle Wolfenstein
+//   Doom III
+//
+// Supported surface parameters:
+//   nonsolid
+//   nodraw
+//   trans
+//   nolightmap
+//   structural
+//   detail
+//   hint
+//   origin
+//   areaportal
+//   clusterportal
+
+textures/common/nodrawnonsolid
+{
+	surfaceparm	nonsolid
+	surfaceparm	nodraw
+}
+
+textures/common/nodraw
+{
+	surfaceparm	nodraw
+	surfaceparm	nonsolid
+	surfaceparm	trans
+}
+
+textures/common/nolightmap
+{
+	surfaceparm	nolightmap
+}
+
+// Quake3, Doom3
+textures/common/invisible
+{
+	surfaceparm	nodraw
+}
+
+textures/common/nodrop
+{
+	surfaceparm	nonsolid
+	surfaceparm 	nodraw
+	surfaceparm 	trans
+	surfaceparm 	nolightmap
+}
+
+// Quake3
+textures/common/weapclip
+{
+	surfaceparm	nodraw
+	surfaceparm	trans
+}
+
+// RTCW
+textures/common/clipweap
+{
+	surfaceparm	nodraw
+	surfaceparm	trans
+}
+
+textures/common/clip
+{
+	surfaceparm	nonsolid
+	surfaceparm	nodraw
+	surfaceparm	nolightmap
+}
+
+// Quake3 and Doom3
+textures/common/full_clip
+{
+	surfaceparm	nodraw
+}
+
+// RTCW
+textures/common/clipfull
+{
+	surfaceparm	nodraw
+}
+
+// Quake3
+textures/common/missileclip
+{
+	surfaceparm	nodraw
+}
+
+// RTCW
+textures/common/clipmissile
+{ 
+	surfaceparm	nodraw
+	surfaceparm	trans
+}
+
+textures/common/cushion
+{
+	surfaceparm	nodraw
+	surfaceparm	trans
+}
+
+textures/common/hint
+{
+	surfaceparm	nodraw
+	surfaceparm	nonsolid
+	surfaceparm	structural
+	surfaceparm	trans
+}
+
+textures/common/skip
+{
+	surfaceparm	nodraw
+	surfaceparm	nonsolid
+	surfaceparm	structural
+	surfaceparm	trans
+}
+
+textures/common/slick
+{
+	surfaceparm	nodraw
+	surfaceparm	trans
+}
+
+textures/common/origin
+{
+	surfaceparm	nodraw
+	surfaceparm	nonsolid
+	surfaceparm	origin
+}
+
+textures/common/areaportal
+{
+	surfaceparm	nodraw
+	surfaceparm	nonsolid
+	surfaceparm	structural
+	surfaceparm	trans
+	surfaceparm	areaportal
+}
+
+// Doom3
+textures/editor/visportal
+{
+	surfaceparm	nodraw
+	surfaceparm	nonsolid
+	surfaceparm	structural
+	surfaceparm	trans
+	surfaceparm	areaportal
+}
+
+textures/common/clusterportal
+{
+	surfaceparm	nodraw
+	surfaceparm	nonsolid
+	surfaceparm	trans
+	surfaceparm	detail
+	surfaceparm	clusterportal
+}
+
+textures/common/donotenter
+{
+	surfaceparm	nodraw
+	surfaceparm	nonsolid
+	surfaceparm	trans
+	surfaceparm	detail
+}
+
+textures/common/caulk
+{
+	surfaceparm	nodraw
+        surfaceparm	nolightmap
+}
+
+// RTCW
+textures/common/lightgrid
+{
+	surfaceparm	nodraw
+	surfaceparm	nonsolid
+	surfaceparm	trans
+}
+
+textures/common/trigger
+{
+	surfaceparm	nodraw
+}
+
+// Doom3
+textures/common/trigmulti
+{
+	surfaceparm	nodraw
+}
+
+// Doom3
+textures/common/trigonce
+{
+	surfaceparm	nodraw
+}
+
+// Doom3
+textures/common/trigtimer
+{
+	surfaceparm	nodraw
+}
+
+// Doom3
+textures/common/trigrelay
+{
+	surfaceparm	nodraw
+}
+
+// Doom3
+textures/common/trighurt
+{
+	surfaceparm	nodraw
+}
+
+// Doom3
+textures/common/trigfade
+{
+	surfaceparm	nodraw
+}
+
+// Doom3
+textures/common/triggui
+{
+	surfaceparm	nodraw
+}
+
+// Doom3
+textures/common/trigair
+{
+	surfaceparm	nodraw
+}
+
+// Doom3
+textures/common/trigentityname
+{
+	surfaceparm	nodraw
+}
+
+// Doom3
+textures/common/trigentityname_once
+{
+	surfaceparm	nodraw
+}

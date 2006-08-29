@@ -1,0 +1,18 @@
+textures\sanom\bump
+{
+	qer_editorimage	textures\sanom\cobblestonex
+	obsp_normalmap  textures\sanom\cobblestonebump
+
+	bumpmap		textures\sanom\cobblestonebump
+	diffusemap	textures\sanom\cobblestonex
+	specularmap	textures\sanom\cobblestone_s
+}
+textures\sanom\snow
+{
+	qer_editorimage	textures\sanom\cobblestonex
+	obsp_normalmap  textures\sanom\snow
+
+	bumpmap		textures\sanom\snow
+	diffusemap	textures\sanom\cobblestonex
+	specularmap	textures\sanom\cobblestone_s
+}
