@@ -1,0 +1,10 @@
+# SkinHat
+clouds.jpg
+column.jpg
+sea.jpg
+step.jpg
+zeus.tga
+
+# Osman Turan
+base\roughsurface.jpg
+base\roughsurface_local.tga
